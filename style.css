@@ -130,6 +130,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: #4f4d4d;
 }
 #history-list {
   list-style: none;
@@ -148,4 +149,24 @@
   background: #16a34a;
   color: #ddd;
 
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+.flex {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 12px;
+  }
+
+  .services {
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 0;
+  }
+
+  .history-section {
+    order: 2;            
+    max-height: none;
+    overflow: visible;
+    padding: 12px;
+  }
 }
