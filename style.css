@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fafa;
+  color: white;
+  padding: 10px 20px;
+}
+.logo {
+  font-weight: bold;
+  display: flex;
+  color: #006747;
+  
+}
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+.nav-right  {
+  margin-left: 15px;
+  display: flex;
+
+}
+.heart ,.coin, .copy {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    color: #006747;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(239, 242, 243)
+}
+.heart-icon ,.coin-icon, .copy-icon {
+    margin: 5px 10px 10px 5px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.heart-count ,.coin-count, .copy-count{
+    color: black;
+    margin: 5px 10px 10px 5px;
+
+}
