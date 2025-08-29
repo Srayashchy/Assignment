@@ -36,7 +36,7 @@
   margin-right: 5px;
 }
 
-.heart-count ,.coin-count, .copy-count{
+.heartCount ,.coinCount, .copyCount{
     color: black;
     margin: 5px 10px 10px 5px;}
 
@@ -62,3 +62,90 @@
   margin-top: 10px;
 }
 
+
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  gap: 10px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emergency-icon {
+  height: 28px;
+}
+.fav img.heart-icon {
+  height: 18px;
+  }
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.copy {
+  background: #f5f5f5;
+  }
+.call {
+  background: #16a34a;
+  color: white;
+}
+ .flex {
+ display: grid;
+  grid-template-columns: 1fr 320px; 
+  gap: 24px;
+  padding: 20px;
+  align-items: start;
+
+} 
+
+.history-section {
+  
+  overflow: auto;
+  padding: 16px;
+  
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#history-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+#history-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0;
+}
+
+.history_btn {
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #16a34a;
+  color: #ddd;
+
+}
