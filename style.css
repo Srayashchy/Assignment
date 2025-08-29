@@ -38,6 +38,27 @@
 
 .heart-count ,.coin-count, .copy-count{
     color: black;
-    margin: 5px 10px 10px 5px;
+    margin: 5px 10px 10px 5px;}
 
+    .hero {
+  text-align: center;
+  background: #013223;
+  color: white;
+  margin-top: 10px;
 }
+.hero img {
+  width: 80px;
+}
+.hero h1 {
+  margin: 10px 0;
+}
+.hero p {
+  margin: 10px 0 20px;
+  font-size: 18px;
+  margin-bottom: 15px
+}
+.logo-dark {
+
+  margin-top: 10px;
+}
+
